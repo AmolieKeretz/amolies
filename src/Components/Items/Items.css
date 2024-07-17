@@ -1,0 +1,39 @@
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+}
+.card img{
+    width: 200px;
+    height: 250px;
+    padding: 5px;
+    border-radius: 30px;
+    object-fit: contain;
+}
+.card-body{
+    margin-left: -100px;
+}
+.card-title{
+    font-size: 15px;
+    font-weight: 500;
+    margin-left: 45px;
+}
+.item-prices-new{
+    color: #374151;
+    font-size: 18px;
+    font-weight: 600;
+}
+.item-price-old-container {
+    font-weight: 600;
+}
+.item-price-old{
+    color: #8c8c8c;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: line-through;
+}
+.card:hover{
+    transform: scale(1.05);
+    transition: 0.6s;
+}
